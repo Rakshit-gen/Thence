@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .manrope {
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
