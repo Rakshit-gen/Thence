@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <main>
         {/*  */}
-        <section className='flex flex-col justify-center items-center mt-16'>
+        <section className='flex flex-col items-center justify-center mt-16'>
             <div>
                 <h3 className='text-[36px] text-[#2DA950] font-Grace font-normal'>Success Stories</h3>
             </div>
@@ -61,12 +61,12 @@ const Hero = () => {
                 <h2 className='text-[40px] font-Manrope font-semibold w-[400px]'>Enhance fortune 50 company’s insights teams research capabilities</h2>
                 <img
                     src="/dot.svg"
-                    className='mt-4 mb-4'
+                    className='mt-8 mb-20'
                 />
                 <Button
                     backgroundColor="#1C1C1C"
                     borderColor=""
-                    textColor="pink-500"
+                    textColor="#FFFFFF"
                     hoverColor="#4E4E4E"
                     label="Explore More"
                     link="/"
