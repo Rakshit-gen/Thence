@@ -3,8 +3,6 @@ import Button from './Button'
 
 const Navbar = () => {
 
-const registrationPath = "src\Registration.jsx"
-
 return (
     <nav className='h-[80px] border-[#EAEAEA] border-[1px] rounded-full mt-[24px] mx-[24px]'>
         <div className='flex justify-between mx-4 flex-'>
@@ -12,22 +10,25 @@ return (
                 <img src="/logo.svg" alt="" />
             </div>
             <div className='flex flex-row gap-4 mt-3'>
-                <Button
-                    backgroundColor="#FFFFFF"
-                    borderColor="#EAEAEA"
-                    label="Get Projects"
-                    textColor="#000000"
-                    hoverColor="#EAEAEA"
-                    link="./Registration"
-                />
-                <Button
-                    backgroundColor="#1C1C1C"
-                    borderColor="#1C1C1C"
-                    label="Onboard Talent"
-                    textColor="#FFFFFF"
-                    hoverColor="#4E4E4E"
-                    link="/"
-                />
+                <a href="/Register" className='rounded-full'>
+                    <Button
+                        backgroundColor="#FFFFFF"
+                        borderColor="#EAEAEA"
+                        label="Get Projects"
+                        textColor="#000000"
+                        hoverColor="#EAEAEA"
+                    />
+                </a>
+                <a href="/" className='rounded-full'>
+                    <Button
+                        backgroundColor="#1C1C1C"
+                        borderColor="#1C1C1C"
+                        label="Onboard Talent"
+                        textColor="#FFFFFF"
+                        hoverColor="#4E4E4E"
+                        link="/"
+                    />
+                </a>
             </div>
         </div>
     </nav>

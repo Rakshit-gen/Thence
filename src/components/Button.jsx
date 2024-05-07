@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
 
-const Button = ({ backgroundColor, borderColor, textColor, hoverColor, label, link }) => {
+const Button = ({ backgroundColor, borderColor, textColor, hoverColor, label }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const buttonStyle = {
@@ -17,8 +16,7 @@ const Button = ({ backgroundColor, borderColor, textColor, hoverColor, label, li
     };
 
     return (
-        <BrowserRouter>
-            <Link 
+            <a
                 style={buttonStyle} 
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
@@ -26,8 +24,7 @@ const Button = ({ backgroundColor, borderColor, textColor, hoverColor, label, li
                 className='cursor-pointer'
             >
                 {label}
-            </Link>
-        </BrowserRouter>
+            </a>
     );
 };
 
