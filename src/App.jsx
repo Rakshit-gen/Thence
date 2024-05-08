@@ -2,7 +2,8 @@ import FAQ from "./components/FAQ"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
-import Register from "./pages/register/Register"
+import Register from "./pages/Register/Register"
+import Success from "./pages/Success/Success"
 import { createBrowserRouter, RouterProvider, Outlet, Navigate } from "react-router-dom"
 import { useContext } from "react"
 
@@ -29,6 +30,10 @@ function App() {
     {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "/success",
+      element: <Success />,
     },
   ]);
 

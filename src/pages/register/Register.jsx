@@ -1,8 +1,13 @@
 import React from 'react'
+import RegisterationNavbar from '../../components/RegisterationNavbar'
+import RegisterationForm from '../../components/RegisterationForm'
 
 const Register = () => {
   return (
-    <div>Testing</div>
+    <>
+        <RegisterationNavbar />
+        <RegisterationForm />
+    </>
   )
 }
 
