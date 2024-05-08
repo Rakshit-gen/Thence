@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import InputField from './InputField';
+import Success from '../pages/success/Success';
 
 const RegistrationForm = () => {
     const [name, setName] = useState('');
@@ -63,7 +64,7 @@ const RegistrationForm = () => {
                     />
                 </div>
                 {warningMessage && <div className="text-red-500">{warningMessage}</div>}
-                <button
+                {/* <button
                     className={`w-[417px] pt-[26.11px] pr-[49.61px] pb-[26.11px] pl-[41.78px] rounded-full mt-10 font-Manrope font-semibold text-[18px] text-white
                         ${
                             name.trim()!=='' && email.trim()!=='' && isValidEmail ? 'bg-[#2DA950] hover:bg-[#1E8449] cursor-pointer' : 'bg-[#C9C9C9] cursor-not-allowed'
@@ -72,7 +73,10 @@ const RegistrationForm = () => {
                     disabled={name.trim() === '' || email.trim() === '' || !isValidEmail}
                 >
                     Submit
-                </button>
+                </button> */}
+                <a href="/Success">
+                    <button>Submit</button>
+                </a>
             </div>
         </main>
     );
