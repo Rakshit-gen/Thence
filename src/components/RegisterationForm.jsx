@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import InputField from './InputField';
-import Success from './pages/success/Success';
+import Success from './pages/success/Success.jsx';
 
 const RegistrationForm = () => {
     const [name, setName] = useState('');
