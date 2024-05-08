@@ -9,7 +9,7 @@ return (
             <div className='mx-6 mt-5'>
                 <img src="/logo.svg" alt="" />
             </div>
-            <div className='flex flex-row gap-4 mt-3'>
+            <div className='flex flex-row gap-4 mt-6'>
                 <a href="/Register" className='rounded-full'>
                     <Button
                         backgroundColor="#FFFFFF"
