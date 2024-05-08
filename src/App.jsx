@@ -3,7 +3,7 @@ import Footer from "./components/Footer.jsx"
 import Hero from "./components/Hero.jsx"
 import Navbar from "./components/Navbar.jsx"
 import Register from "./pages/register/Register.jsx"
-import Success from "./pages/success/Success.jsx"
+import Success from "./pages/Success/Success.jsx"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 function App() {
