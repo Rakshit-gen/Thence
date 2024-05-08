@@ -4,8 +4,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Register from "./pages/register/Register.jsx"
 import Success from "./pages/success/Success.jsx"
-import { createBrowserRouter, RouterProvider, Outlet, Navigate } from "react-router-dom"
-import { useContext } from "react"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 function App() {
 
