@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
-const Hero = () => {
+const   Hero = () => {
   return (
     <main>
         {/*  */}
@@ -28,11 +28,11 @@ const Hero = () => {
                     alt="spark"
                     className='w-[80px] relative -top-[380px] left-[60px] -rotate-[21deg] z-10'
                 />
-                <div className='relative bg-white rounded-2xl shadow-2xl w-[267px] h-[220px] flex flex-col justify-around px-8 -top-[450px] left-[70px]'>
+                <div className='relative bg-white rounded-2xl shadow-2xl w-[267px] h-[220px] flex flex-col justify-around px-8 -top-[450px] left-[70px] transition-all ease-out hover:scale-105'>
                     <h2 className='font-Manrope font-semibold text-[64px]'>40%</h2>
                     <p className='text-[#828282] font-Manrope'>Achieved reduction in project execution time by optimising team availability</p>
                 </div>
-                <div className='relative bg-white w-[245px] h-[90px] rounded-full shadow-2xl flex flex-row justify-evenly items-center -top-[420px] left-[150px]'>
+                <div className='relative bg-white w-[245px] h-[90px] rounded-full shadow-2xl flex flex-row justify-evenly items-center -top-[420px] left-[150px] transition-all ease-out hover:scale-105'>
                     <div>
                         <img
                             src="/rocket.svg"
@@ -45,7 +45,7 @@ const Hero = () => {
                         <p className='text-[#828282] font-Manrope'>Staff Deployment</p>
                     </div>
                 </div>
-                <div className='relative bg-[#002E18] rounded-[28.36px] w-[290px] h-[239px] shadow-2xl flex flex-col justify-evenly p-[30px] -top-[580px] left-[500px]'>
+                <div className='relative bg-[#002E18] rounded-[28.36px] w-[290px] h-[239px] shadow-2xl flex flex-col justify-evenly p-[30px] -top-[580px] left-[500px] transition-all ease-out hover:scale-105'>
                     <div className='flex flex-row gap-3'>
                         <h2 className='text-white font-Manrope text-[63px] font-semibold'>$0.5</h2>
                         <h3 className='font-Manrope text-[#A6A3A0] font-medium mt-12'>MILLION</h3>
